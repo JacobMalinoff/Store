@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="store.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+</head> 
+    <body style="background-color: powderblue;">
+    <main>
+        <div>
+            <div class="homepage">
+                <h1><center>Featured Items</center></h1>
+               <!--  <div class="link"><a href="#Hammers">Hammers</a></div> -->
+                <table class="card"> 
+                    <tr>
+                        <div class="card"><th><img src="images/Craftsman-Hammer.jpeg" id="img1" alt="Craftsman" width="235" height="235">
+                        <h2><div class = "link">Craftsman Hammer</div></h2>
+                        <h4>$18.00</h4>
+                    <p><button id = "hp1">Add to Cart</button></p></th>
+                </div>
+                <div class="card"><th><img src="images/kitchaidmicrowave.webp" alt="Kitchenaid" width="235" height="235">
+                <h2><div class = "link">Kitchenaid Microwave</div></h2> 
+                <h4>$200.00</h4>
+            <p><button id = "hp2">Add to Cart</button></p></th>
+        </div>
+        <div class="card"><th><img src="images/Kobalt-Screwdriver.jpeg" alt="Kobalt" width="235" height="235">
+            <h2><div class = "link">Kobalt Screwdriver</div></h2> 
+            <h4>$10.00</h4>
+        <p><button id="hp3">Add to Cart</button></p></th>
+        </div>
+        <div class="card"><th><img src="images/lgfridge.jpeg" alt="LG" width="235" height="235">
+            <h2><div class = "link">LG Fridge</div></h2> 
+            <h4>$1,300.00</h4>
+        <p><button id="hp4">Add to Cart</button></p></th>
+        </div>
+                    </tr>
+                    <tr>
+                        <div class="card"><th><img src="images/Workpro-Hammer.jpeg" alt="Workpro" width="235" height="235">
+                            <h2><div class = "link">Workpro Hammer</div></h2> 
+                            <h4>$17.00</h4>
+                        <p><button id="hp5">Add to Cart</button></p></th>
+                        </div>
+                        <div class="card"><th><img src="images/Masterforce-Pliers.jpeg" alt="Masterforce" width="235" height="235">
+                            <h2><div class = "link">Masterforce Pliers</div></h2> 
+                            <h4>$7.00</h4>
+                        <p><button id="hp6">Add to Cart</button></p></th>
+                        </div>
+                        <div class="card"><th><img src="images/maytagwasher.jpeg" alt="Maytag" width="235" height="235">
+                            <h2><div class = "link">Maytag Dish Washer</div></h2> 
+                            <h4>$650.00</h4>
+                        <p><button id="hp7">Add to Cart</button></p></th>
+                        </div>
+                        <div class="card"><th><img src="images/Roofing-Nails.jpeg" alt="Roofing" width="235" height="235">
+                            <h2><div class = "link"> Roofing Nails</div></h2> 
+                            <h4>$15.00</h4>
+                        <p><button id="hp8">Add to Cart</button></p></th>
+                        </div>
+                    </tr>
+                    
+                </table>
+               
+        </div>
+
+        <p> 
+            <h3>Cart total:</h3>
+            <h3 id="num">$0.00</h3>
+            <form action="https://webdevbasics.net/scripts/demo.php" method="post"><button id="cart">Check Out</button></form>
+        </p>
+    </main>
+    <script src="orders.js"> async</script>
+</body>
+</html>
